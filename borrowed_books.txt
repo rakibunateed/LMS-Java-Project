@@ -1,4 +1,0 @@
-Software Craftsmanship,Robert C. Martin,false,2024-05-28 12:11:55
-Data Structures,Alice Johnson,false,2024-05-28 12:11:55
-Python Basics,Jane Smith,false,2024-05-28 12:11:55
-Java Programming,John Doe,false,2024-05-28 12:11:55
