@@ -1,0 +1,4 @@
+Java Programming,John Doe,true
+Python Basics,Jane Smith,true
+Data Structures,Alice Johnson,true
+Software Craftsmanship,Robert C. Martin,true
