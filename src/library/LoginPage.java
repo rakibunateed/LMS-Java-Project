@@ -36,12 +36,18 @@ public class LoginPage extends JFrame {
         add(passwordField);
 
         JButton loginButton = new JButton("Login");
-        loginButton.setBounds(630, 390, 100, 30);
+        loginButton.setBounds(575, 390, 100, 30);
         loginButton.setFont(new Font("Arial", Font.BOLD, 16));
         loginButton.setForeground(Color.WHITE);
         loginButton.setBackground(new Color(99, 3, 7, 255));
-
         add(loginButton);
+
+        JButton cancelButton = new JButton("Cancel");
+        cancelButton.setBounds(697, 390, 100, 30);
+        cancelButton.setFont(new Font("Arial", Font.BOLD, 16));
+        cancelButton.setForeground(Color.WHITE);
+        cancelButton.setBackground(new Color(99, 3, 7, 255));
+        add(cancelButton);
 
 
         loginButton.addActionListener(new ActionListener() {
@@ -57,6 +63,13 @@ public class LoginPage extends JFrame {
                 } else {
                     JOptionPane.showMessageDialog(null, "Invalid username or password.");
                 }
+            }
+        });
+
+        cancelButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dispose();
             }
         });
 
