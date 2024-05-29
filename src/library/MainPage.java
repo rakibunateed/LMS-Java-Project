@@ -50,7 +50,7 @@ public class MainPage extends JFrame {
 
         // Add book button
         JButton addBookButton = new JButton("Add Book");
-        addBookButton.setBounds(170, 550, 150, 29);
+        addBookButton.setBounds(157, 550, 150, 30);
         addBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         addBookButton.setForeground(Color.WHITE);
         addBookButton.setBackground(new Color(99, 3, 7, 255));
@@ -70,7 +70,7 @@ public class MainPage extends JFrame {
 
         // Borrow book button
         JButton borrowBookButton = new JButton("Borrow Book");
-        borrowBookButton.setBounds(340, 550, 150, 29);
+        borrowBookButton.setBounds(327, 550, 150, 30);
         borrowBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         borrowBookButton.setForeground(Color.WHITE);
         borrowBookButton.setBackground(new Color(99, 3, 7, 255));
@@ -93,7 +93,7 @@ public class MainPage extends JFrame {
 
         // Return book button
         JButton returnBookButton = new JButton("Return Book");
-        returnBookButton.setBounds(510, 550, 150, 29);
+        returnBookButton.setBounds(497, 550, 150, 30);
         returnBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         returnBookButton.setForeground(Color.WHITE);
         returnBookButton.setBackground(new Color(99, 3, 7, 255));
@@ -116,7 +116,7 @@ public class MainPage extends JFrame {
 
         // Delete book button
         JButton deleteBookButton = new JButton("Delete Book");
-        deleteBookButton.setBounds(760, 550, 150, 29);
+        deleteBookButton.setBounds(667, 550, 150, 30);
         deleteBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         deleteBookButton.setForeground(Color.WHITE);
         deleteBookButton.setBackground(new Color(99, 3, 7, 255));
@@ -140,7 +140,7 @@ public class MainPage extends JFrame {
 
         // Update book button
         JButton updateBookButton = new JButton("Update Book");
-        updateBookButton.setBounds(950, 550, 150, 29);
+        updateBookButton.setBounds(837, 550, 150, 30);
         updateBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         updateBookButton.setForeground(Color.WHITE);
         updateBookButton.setBackground(new Color(99, 3, 7, 255));
