@@ -36,7 +36,7 @@ public class LoginPage extends JFrame {
         add(passwordField);
 
         JButton loginButton = new JButton("Login");
-        loginButton.setBounds(560, 390, 100, 30);
+        loginButton.setBounds(630, 390, 100, 30);
         loginButton.setFont(new Font("Arial", Font.BOLD, 16));
         loginButton.setForeground(Color.WHITE);
         loginButton.setBackground(new Color(99, 3, 7, 255));
@@ -59,6 +59,7 @@ public class LoginPage extends JFrame {
                 }
             }
         });
+
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Image/login.jpg"));
         Image i = i1.getImage().getScaledInstance(1280, 720, Image.SCALE_DEFAULT);
         ImageIcon i2 = new ImageIcon(i);
