@@ -13,43 +13,45 @@ public class MainPage extends JFrame {
     public MainPage() {
         library = new Library();
         setTitle("Library Management System");
-        setSize(800, 600);
+        setSize(1166, 750);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(null);
 
         // Book list area
         JLabel bookListLabel = new JLabel("Books:");
-        bookListLabel.setBounds(50, 20, 100, 25);
-        bookListLabel.setFont(new Font("Arial", Font.BOLD, 16));
+        bookListLabel.setBounds(150, 70, 100, 25);
+        bookListLabel.setFont(new Font("Arial", Font.BOLD, 18));
         bookListLabel.setForeground(Color.WHITE);
         add(bookListLabel);
 
         bookListArea = new JTextArea();
-        bookListArea.setBounds(50, 50, 300, 400);
+        bookListArea.setBounds(150, 100, 350, 400);
+        bookListArea.setFont(new Font("Arial", Font.PLAIN, 15));
         bookListArea.setEditable(false);
         JScrollPane bookListScrollPane = new JScrollPane(bookListArea);
-        bookListScrollPane.setBounds(50, 50, 300, 400);
+        bookListScrollPane.setBounds(150, 100, 350, 400);
         add(bookListScrollPane);
 
         // Event log area
         JLabel eventLogLabel = new JLabel("Event Log:");
-        eventLogLabel.setBounds(400, 20, 100, 25);
-        eventLogLabel.setFont(new Font("Arial", Font.BOLD, 16));
+        eventLogLabel.setBounds(650, 70, 100, 25);
+        eventLogLabel.setFont(new Font("Arial", Font.BOLD, 18));
         eventLogLabel.setForeground(Color.WHITE);
         add(eventLogLabel);
 
         eventLogArea = new JTextArea();
-        eventLogArea.setBounds(400, 50, 300, 400);
+        eventLogArea.setBounds(650, 100, 350, 400);
+        eventLogArea.setFont(new Font("Arial", Font.PLAIN, 15));
         eventLogArea.setEditable(false);
         JScrollPane eventLogScrollPane = new JScrollPane(eventLogArea);
-        eventLogScrollPane.setBounds(400, 50, 300, 400);
+        eventLogScrollPane.setBounds(650, 100, 350, 400);
         add(eventLogScrollPane);
 
         // Add book button
         JButton addBookButton = new JButton("Add Book");
-        addBookButton.setBounds(50, 470, 120, 25);
-        addBookButton.setFont(new Font("Arial", Font.PLAIN, 14));
+        addBookButton.setBounds(170, 550, 150, 29);
+        addBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         addBookButton.setForeground(Color.WHITE);
         addBookButton.setBackground(new Color(99, 3, 7, 255));
         add(addBookButton);
@@ -68,8 +70,8 @@ public class MainPage extends JFrame {
 
         // Borrow book button
         JButton borrowBookButton = new JButton("Borrow Book");
-        borrowBookButton.setBounds(180, 470, 120, 25);
-        borrowBookButton.setFont(new Font("Arial", Font.PLAIN, 14));
+        borrowBookButton.setBounds(340, 550, 150, 29);
+        borrowBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         borrowBookButton.setForeground(Color.WHITE);
         borrowBookButton.setBackground(new Color(99, 3, 7, 255));
         add(borrowBookButton);
@@ -91,8 +93,8 @@ public class MainPage extends JFrame {
 
         // Return book button
         JButton returnBookButton = new JButton("Return Book");
-        returnBookButton.setBounds(310, 470, 120, 25);
-        returnBookButton.setFont(new Font("Arial", Font.PLAIN, 14));
+        returnBookButton.setBounds(510, 550, 150, 29);
+        returnBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         returnBookButton.setForeground(Color.WHITE);
         returnBookButton.setBackground(new Color(99, 3, 7, 255));
         add(returnBookButton);
@@ -114,8 +116,8 @@ public class MainPage extends JFrame {
 
         // Delete book button
         JButton deleteBookButton = new JButton("Delete Book");
-        deleteBookButton.setBounds(440, 470, 120, 25);
-        deleteBookButton.setFont(new Font("Arial", Font.PLAIN, 14));
+        deleteBookButton.setBounds(760, 550, 150, 29);
+        deleteBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         deleteBookButton.setForeground(Color.WHITE);
         deleteBookButton.setBackground(new Color(99, 3, 7, 255));
         add(deleteBookButton);
@@ -138,8 +140,8 @@ public class MainPage extends JFrame {
 
         // Update book button
         JButton updateBookButton = new JButton("Update Book");
-        updateBookButton.setBounds(570, 470, 120, 25);
-        updateBookButton.setFont(new Font("Arial", Font.PLAIN, 14));
+        updateBookButton.setBounds(950, 550, 150, 29);
+        updateBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         updateBookButton.setForeground(Color.WHITE);
         updateBookButton.setBackground(new Color(99, 3, 7, 255));
         add(updateBookButton);
