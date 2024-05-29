@@ -39,14 +39,14 @@ public class LoginPage extends JFrame {
         loginButton.setBounds(575, 390, 100, 30);
         loginButton.setFont(new Font("Arial", Font.BOLD, 16));
         loginButton.setForeground(Color.WHITE);
-        loginButton.setBackground(new Color(99, 3, 7, 255));
+        loginButton.setBackground(new Color(138, 1, 7, 255));
         add(loginButton);
 
         JButton cancelButton = new JButton("Cancel");
         cancelButton.setBounds(697, 390, 100, 30);
         cancelButton.setFont(new Font("Arial", Font.BOLD, 16));
         cancelButton.setForeground(Color.WHITE);
-        cancelButton.setBackground(new Color(99, 3, 7, 255));
+        cancelButton.setBackground(new Color(138, 1, 7, 255));
         add(cancelButton);
 
 

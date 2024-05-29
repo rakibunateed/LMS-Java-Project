@@ -49,11 +49,11 @@ public class MainPage extends JFrame {
         add(eventLogScrollPane);
 
         // Add book button
-        JButton addBookButton = new JButton("Add Book");
+        JButton addBookButton = new JButton("Add Books");
         addBookButton.setBounds(157, 550, 150, 30);
         addBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         addBookButton.setForeground(Color.WHITE);
-        addBookButton.setBackground(new Color(99, 3, 7, 255));
+        addBookButton.setBackground(new Color(138, 1, 7, 255));
         add(addBookButton);
         addBookButton.addActionListener(new ActionListener() {
             @Override
@@ -69,11 +69,11 @@ public class MainPage extends JFrame {
         });
 
         // Borrow book button
-        JButton borrowBookButton = new JButton("Borrow Book");
+        JButton borrowBookButton = new JButton("Borrow Books");
         borrowBookButton.setBounds(327, 550, 150, 30);
         borrowBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         borrowBookButton.setForeground(Color.WHITE);
-        borrowBookButton.setBackground(new Color(99, 3, 7, 255));
+        borrowBookButton.setBackground(new Color(138, 1, 7, 255));
         add(borrowBookButton);
         borrowBookButton.addActionListener(new ActionListener() {
             @Override
@@ -92,11 +92,11 @@ public class MainPage extends JFrame {
         });
 
         // Return book button
-        JButton returnBookButton = new JButton("Return Book");
+        JButton returnBookButton = new JButton("Return Books");
         returnBookButton.setBounds(497, 550, 150, 30);
         returnBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         returnBookButton.setForeground(Color.WHITE);
-        returnBookButton.setBackground(new Color(99, 3, 7, 255));
+        returnBookButton.setBackground(new Color(138, 1, 7, 255));
         add(returnBookButton);
         returnBookButton.addActionListener(new ActionListener() {
             @Override
@@ -115,11 +115,11 @@ public class MainPage extends JFrame {
         });
 
         // Delete book button
-        JButton deleteBookButton = new JButton("Delete Book");
+        JButton deleteBookButton = new JButton("Delete Books");
         deleteBookButton.setBounds(667, 550, 150, 30);
         deleteBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         deleteBookButton.setForeground(Color.WHITE);
-        deleteBookButton.setBackground(new Color(99, 3, 7, 255));
+        deleteBookButton.setBackground(new Color(138, 1, 7, 255));
         add(deleteBookButton);
         deleteBookButton.addActionListener(new ActionListener() {
             @Override
@@ -139,11 +139,11 @@ public class MainPage extends JFrame {
         });
 
         // Update book button
-        JButton updateBookButton = new JButton("Update Book");
+        JButton updateBookButton = new JButton("Update Books");
         updateBookButton.setBounds(837, 550, 150, 30);
         updateBookButton.setFont(new Font("Arial", Font.BOLD, 16));
         updateBookButton.setForeground(Color.WHITE);
-        updateBookButton.setBackground(new Color(99, 3, 7, 255));
+        updateBookButton.setBackground(new Color(138, 1, 7, 255));
         add(updateBookButton);
         updateBookButton.addActionListener(new ActionListener() {
             @Override
