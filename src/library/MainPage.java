@@ -182,8 +182,9 @@ public class MainPage extends JFrame {
 
     private void updateBookList() {
         bookListArea.setText("");
+        int i =1;
         for (Book book : library.getBooks()) {
-            bookListArea.append(book + "\n");
+            bookListArea.append(Integer.toString(i++) + ". " + book + "\n");
         }
     }
 
